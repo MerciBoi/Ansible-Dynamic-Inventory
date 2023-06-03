@@ -5,6 +5,7 @@
 # 1. Create /etc/ansible/ directory and download/copy from here the contents of
 	hosts
 	ec2.ini
+	ansible.cfg
 
 # 2. Assign executable permissions to hosts file
 	sudo chmod +x /etc/ansible/hosts
