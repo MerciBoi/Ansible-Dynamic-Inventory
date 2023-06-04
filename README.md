@@ -17,7 +17,7 @@
    		if your controller node has Python3 then replace the location of shebang(#!) from #!/usr/bin/env python to #!/usr/bin/python3
 
 # 4. Install boto
-	sudo pip install boto (you  may use --user flag for the current user)
+	sudo pip install boto 
 
 # 5. Execute ansible command: ansible all --list
       This would take a while. However, you may narrow down the search to specific regions in ec2.ini file
